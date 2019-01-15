@@ -1,0 +1,7 @@
+version: "2"
+services:
+  authdaemon:
+    build:
+      context: .
+    volumes:
+      - ~/.lhr/data:/app/data
